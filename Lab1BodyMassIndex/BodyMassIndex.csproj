@@ -7,8 +7,8 @@
     <ProjectGuid>{09431E90-65F2-4427-90EB-8D707A9D9FD1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lab1BodyMassIndex</RootNamespace>
-    <AssemblyName>Lab1BodyMassIndex</AssemblyName>
+    <RootNamespace>BodyMassIndex</RootNamespace>
+    <AssemblyName>BodyMassIndex</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
