@@ -1,8 +1,8 @@
-﻿/*  /Program Name:   BodyMassIndex
+﻿/*  /Program Name:  BodyMassIndex
  *  Program Author: Matthew Bate
  *  Date:           January 31, 2018
  *  
- *  Description:    
+ *  Description:    A program to calculate a person's body mass index based on user input.
  *  Modified By:    Matthew Bate
  *  Modified Date:  2/19/2008
  */
