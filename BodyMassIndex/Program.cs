@@ -1,4 +1,4 @@
-﻿/*  /Program Name:  BodyMassIndex
+﻿/*  Program Name:  BodyMassIndex
  *  Program Author: Matthew Bate
  *  Date:           January 31, 2018
  *  
