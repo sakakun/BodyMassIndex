@@ -6,6 +6,8 @@
  *                  version additional validation will be taking place as outlined in the Plan Read Me File.
  *                  The concept of the if statements within this application is to valid for errors and if true
  *                  error then it will provide the error statement and then skip to end of nested if statements.
+ *                  This allows for errors to be displayed in order of them happening rather than bunching them 
+ *                  at the end of the code and tracking the else statements.
  *  Modified By:    Matthew Bate
  *  Modified Date:  2/26/2018
  */
