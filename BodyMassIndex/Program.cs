@@ -4,6 +4,8 @@
  *  
  *  Description:    A program to calculate a person's body mass index based on user input.  In this
  *                  version additional validation will be taking place as outlined in the Plan Read Me File.
+ *                  The concept of the if statements within this application is to valid for errors and if true
+ *                  error then it will provide the error statement and then skip to end of nested if statements.
  *  Modified By:    Matthew Bate
  *  Modified Date:  2/26/2018
  */
@@ -36,7 +38,7 @@ namespace BodyMassIndex
             // Parse Height into Double Variable and Validate userInput
             if (!Double.TryParse(Console.ReadLine(), out userInput) || (userInput < 5) || (userInput > 120)) {
                 // Error Processing / Validating userInput
-                Console.WriteLine("\nEntry Error. \nThe height entered must be a valid number between 5\" and 120\" inclusive.");
+                Console.WriteLine("\nEntry Error. \n\nThe height entered must be a valid number between 5\" and 120\" inclusive.");
             } else {
                 // Save and Continue to Next Question
                 height = userInput;                                 // Save userInput as Height
@@ -44,7 +46,7 @@ namespace BodyMassIndex
                 Console.Write("Please enter the person's weight in pounds: ");
                 // Parse Weight into Double Variable and Validate userInput
                 if (!Double.TryParse(Console.ReadLine(), out userInput) || (userInput < 0.5) || (userInput > 999)) {
-                    Console.WriteLine("\nEntry Error. \nThe weight entered must be a valid number between 0.5 lbs and 999 lbs inclusive.");
+                    Console.WriteLine("\nEntry Error. \n\nThe weight entered must be a valid number between 0.5 lbs and 999 lbs inclusive.");
                 } else {
                     // Save and Continue to Processing BodyMassIndex Math
                     mass = userInput;
