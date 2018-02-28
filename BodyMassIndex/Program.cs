@@ -1,4 +1,4 @@
-﻿/*  Program Name:  BodyMassIndex
+﻿/*  Program Name:   BodyMassIndex
  *  Program Author: Matthew Bate
  *  Date:           January 31, 2018
  *  
@@ -33,8 +33,7 @@ namespace BodyMassIndex
             double bodyMassIndex;                                   // BodyMassIndex Result of Math Calculation
             const int conversionFactor = 703;                       // Conversion Factor
 
-            /* Requesting Information From User
-             */
+            /* Requesting Information From User */
             // Output Request for Information from User
             Console.Write("Please enter the person's height in inches: ");
             // Parse Height into Double Variable and Validate userInput
@@ -48,6 +47,7 @@ namespace BodyMassIndex
                 Console.Write("Please enter the person's weight in pounds: ");
                 // Parse Weight into Double Variable and Validate userInput
                 if (!Double.TryParse(Console.ReadLine(), out userInput) || (userInput < 0.5) || (userInput > 999)) {
+                    // Error Processing / Validating userInput
                     Console.WriteLine("\nEntry Error. \n\nThe weight entered must be a valid number between 0.5 lbs and 999 lbs inclusive.");
                 } else {
                     // Save and Continue to Processing BodyMassIndex Math
